@@ -1,0 +1,101 @@
+.what_title{
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 141%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #242d52;
+    margin-bottom: 62px;
+    }
+    .what_item{
+       background-color:  #fafafa;
+    }
+    .what_bg_img{
+        margin-bottom: 24px;
+        text-align: center;
+    }
+    .what_img{
+        width: 72px;
+        height: 72px;
+        border-radius: 50%;
+    }
+   
+    .what_sub_title{
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #242d52;
+    margin-bottom: 19px;
+    }
+    .what_text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 186%;
+    text-align: center;
+    color: #242d52;
+    margin-bottom: 68px;
+    }
+    .what_icon_list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 47px;
+    }
+    .what_icon{
+border: 1px solid hsl(12, 88%, 59%);
+border-radius: 50%;
+text-align: center;
+width: 7px;
+height: 7px;
+    }
+    .what_icon2{
+        border: 1px solid #f3603c;
+border-radius: 50%;
+text-align: center;
+width: 7px;
+height: 7px;
+background-color: #f3603c;
+    }
+    .what_btn{
+    font-weight: 700;
+    font-size: 13px;
+    color: #fcf6f5;
+    border-radius: 22px;
+    padding: 12px 32px;
+    box-shadow: 0 15px 15px -10px #ff9f8e;
+    background-color: #f3603c;
+    }
+    .what_button{
+        text-align: center;
+        margin-bottom: 42px;
+    }
+    .what_item2{
+        display: none;
+    }
+    .what_block{
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+    @media screen and (min-width: 768px) {
+        .what_list{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 60px;
+        }
+        .what_item{
+            width: 340px;
+            padding: 0 40px;
+        }
+        .what_item2{
+            display: inline-block;
+            width: 340px;
+            padding: 0 40px;
+            background-color:  #fafafa;
+        }
+        .what_icon_list{
+            display: none;
+        }
+    }

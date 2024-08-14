@@ -1,0 +1,43 @@
+html{
+    box-sizing: border-box ;
+}
+*,
+*::before
+*::after{
+    box-sizing: inherit;
+}
+.img{
+    min-width: 100%;
+    height: auto;
+}
+ul,ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Be Vietnam", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p{
+margin: 0;
+}
+a{
+    text-decoration: none;
+    color: unset;
+    display: inline-block;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
